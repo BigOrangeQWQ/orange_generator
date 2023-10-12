@@ -1,0 +1,17 @@
+[tool.pdm]
+
+[project]
+name = "orange_generator"
+version = "0.1.0"
+description = "A testlib for problemset"
+authors = [
+    {name = "BigOrangeQWQ", email = "2284086963@qq.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
